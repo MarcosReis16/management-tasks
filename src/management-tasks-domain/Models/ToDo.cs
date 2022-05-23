@@ -1,6 +1,6 @@
-using TodoApi.Domain.Models.Base;
+using Management.Tasks.Domain.Models.Base;
 
-namespace TodoApi.Domain.Models;
+namespace Management.Tasks.Domain.Models;
 
 public class ToDo : Entity
 {

@@ -1,4 +1,4 @@
-namespace TodoApi.Domain.Models.Base;
+namespace Management.Tasks.Domain.Models.Base;
 public class Entity
 {
     protected Entity() => 
