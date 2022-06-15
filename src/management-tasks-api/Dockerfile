@@ -9,7 +9,7 @@ COPY src/management-tasks-application/ ./management-tasks-application/
 COPY src/management-tasks-domain/ ./management-tasks-domain/
 COPY src/management-tasks-infra-persistence/ ./management-tasks-infra-persistence/
 
-RUN dotnet publish ./management-tasks-api/Management.Tasks.API.csproj -c release -o /out -r alpine.3.14-x64 -f net6.0 --self-contained
+RUN dotnet publish ./management-tasks-api/Management.Tasks.API.csproj -c release -o /out -r alpine.3.15 -f net6.0 --self-contained
 
 FROM base AS runtime
 WORKDIR /out
